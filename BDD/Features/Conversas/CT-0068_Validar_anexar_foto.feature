@@ -26,7 +26,7 @@ E clico em "Galeria"
 E escolho  uma "foto"
 E Preencho o campo de descrição com "Envidando foto"
 E clico no icone do avizinho
-Então  é me exibido  no historico de mensagem
+Então a "foto"  é exibida no historico de mensagens
 
 Exemplo: 
 Esquema de Cenario:

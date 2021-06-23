@@ -18,4 +18,4 @@ CT-0064
 Cenario: Validar "Enviar" da mensagem de texto
 Quando digito o texto "Hello World" no campo Digite uma mensagem
 E clico no icone de avião 
-Então  a mensagem aparece no quadro de convesa 
+Então  a mensagem é exibida no historico de mensagens

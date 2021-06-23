@@ -26,7 +26,7 @@ E clico no botão do clip de papel
 E clico em "Contato"
 E escolho  o conatato  "João"
 E clico no icone do avizinho
-Então contato e mostrado no quadro de mensagens com as opçoes de  mensagem ou adicionar
+Então  o  "contato"  é exibido no historico de mensagens com as opçoes enviar mensagem ou adicionar a um grupo
  
 
 Exemplo: 

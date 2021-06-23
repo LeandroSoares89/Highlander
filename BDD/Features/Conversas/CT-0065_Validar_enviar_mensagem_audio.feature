@@ -14,7 +14,7 @@ E aparece a mensagem solicitando permissão para usar o microfone
 E clico em permitir o acesso ao microfone 
 E digo algo "Testando envio de audio"
 E solto o icone do microfone
-E audio aparece no quadro de conversa
+E  o audio é exibido no historico de mensagens
 
 CT-0065
 
@@ -22,4 +22,4 @@ Cenario: Validar "Enviar" mesagem de audio
 Quando pressiono o icone do microfone
 E digo algo "Testando envio de audio"
 E solto o icone do microfone
-Então  o audio aparece no quadro de conversa
+Então  o audio é exibido no historico de mensagens
