@@ -7,17 +7,16 @@
 Funcionalidade: Conversas
 
 Contexto:
-Dado  que tenho o aplicativo instalado
-E Tenho contato salvo 
-E Abro o app Whastapp
-E Clico no icone nova conversa 
-E Sou direcionado para a aba de nova conversa
-
+Dado  que tenho o aplicativo instalado estou com ele aberto
+E tenho contato salvo
+E Clico no icone balão de mensagem
 
 CT-0062
+
 Cenario: :Validar nova "Conversa"
+
 Quando Clico no icone de nova conversa
-Então  Sou direcionado para a aba de nova conversa
+Então  Sou redirecionado para a tela de contatos
 
 
 
