@@ -7,16 +7,16 @@
 Funcionalidade: Conversas
 
 Contexto:
-Dado que cliquei em uma nova conversa
-E  escolhi o contato 
-E preencho o campo   Digite uma mensagem com  o texto Hello World
-E Hello World sobre escreve o Digite uma mensagem
+Dado que cliquei em uma nova conversa escolho o contato 
+E  o teclado e apresentado
 
 CT-0065
+Cenario: validar envio da "mensagem"
 
-Cenario: Verificar "Digite uma Mensagem"
-Quando digito o texto "Hello World" no campo Digite uma mensagem
-Então  "Hello World" sobre escreve o campo Digite uma mensagem
+Quando clico no campo   Digite uma mensagem
+E o teclado e apresentado 
+E digito a mensagem "Hello World"
+Então a mensagem "Hello World" é exibida no historico de conversa
 
 
 

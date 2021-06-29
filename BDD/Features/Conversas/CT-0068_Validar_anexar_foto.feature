@@ -7,16 +7,10 @@
 Funcionalidade: Conversas
 
 Contexto:
-Dado  que tenho o aplicativo instalado
-E estou na aba conversas 
-E E clico em nova conversa
-E escolho um contato existente
-E clico no botão do clip de papel
-E clico em Galeria
-E escolho uma foto ou video 
-E Preencho o campo de descrição com Envidando foto
-E clico   no icone do aviazinho
-
+Dado  que estou como o aplicativo aberto na aba conversas 
+E clico em nova conversa escolho um contato existente
+E sou direcionado para a tela de conversa daquele contato escolhido
+E clico no icone de papel escolho galeria
 
 CT-0068
 Cenario:  Validar Anexar "Foto e Vídeos"
@@ -26,7 +20,7 @@ E clico em "Galeria"
 E escolho  uma "foto"
 E Preencho o campo de descrição com "Envidando foto"
 E clico no icone do avizinho
-Então  é me exibido  no historico de mensagem
+Então a "foto"  é exibida no historico de mensagens
 
 Exemplo: 
 Esquema de Cenario:

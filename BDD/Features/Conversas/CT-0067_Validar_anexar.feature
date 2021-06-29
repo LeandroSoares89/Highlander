@@ -7,10 +7,8 @@
 Funcionalidade: Conversas
 
 Contexto:
-Dado  que tenho o aplicativo instalado
-E estou na aba conversas 
-E E clico em nova conversa
-E escolho um contato existente
+Dado  que estou como aplicativo aberto na aba de convesas 
+E  clico no balão de mensagem escolho um contato existente
 E clico no botão do clip de papel
 E é me apresentado os icones:  Sala, contato, documento, Câmera, Galeria, Áudio, Localização, Pagamento 
 

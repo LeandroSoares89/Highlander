@@ -7,26 +7,21 @@
 Funcionalidade: Conversas
 
 Contexto:
-Dado  que tenho o aplicativo instalado
-E estou na aba conversas 
-E E clico em nova conversa
-E escolho um contato existente
+Dado que estou como o aplicativo aberto tela de conversa com um contato escolhido
 E clico no botão do clip de papel
-E clico em contato
+E clico no icone de  contato
 E escolho um contato
-E clico no botão avizinho
-E o contata é apresendado no quadro de mensagens
-E posso mandar mensagem ou adiciona-lo
+E envio o contato
 
 
 CT-0070
 Cenario:  Validar Anexar "Contato"
-Quando  estou em uma em uma convesa 
-E clico no botão do clip de papel
+Quando  estou em uma  convesa 
+E clico no botão do clip de papel 
 E clico em "Contato"
 E escolho  o conatato  "João"
 E clico no icone do avizinho
-Então contato e mostrado no quadro de mensagens com as opçoes de  mensagem ou adicionar
+Então  o  "contato"  é exibido no historico de mensagens com as opçoes enviar mensagem ou adicionar a um grupo
  
 
 Exemplo: 
