@@ -1,14 +1,10 @@
 package com.trios.Pages.Convesas;
 
-import static org.junit.Assert.assertEquals;
-
 import java.net.MalformedURLException;
 
 import com.trios.CapabilityFactory;
 
-
 import org.junit.Test;
-import org.openqa.selenium.By;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
@@ -52,22 +48,18 @@ public class Convesas {
     }
 
     @Test
-    public void EnviarConversa() throws MalformedURLException{
+    public void EnviarConversa() throws MalformedURLException {
         capability.setUp();
-      (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(637, 1388)).perform();
-    (new TouchAction<>(CapabilityFactory.driver))
-    .press(PointOption.point(714,204))
-    .moveTo(PointOption.point(714,296))
-    .release()
-    .perform();
-  
-    (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(183, 1000)).perform();
-    (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(160, 1421)).perform();
-    MobileElement mensagem = (MobileElement) CapabilityFactory.driver.findElementById("com.whatsapp:id/entry");
-    mensagem.sendKeys("TestandoEnvio da Mensagem");
-    MobileElement envio = (MobileElement) CapabilityFactory.driver.findElementByAccessibilityId("Enviar");
-    envio.click();
+        (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(637, 1388)).perform();
+        (new TouchAction<>(CapabilityFactory.driver)).press(PointOption.point(714, 204))
+                .moveTo(PointOption.point(714, 296)).release().perform();
 
-    assertEquals("TestandoEnvio da Mensagem", envio.findElementByXPath(By));
+        (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(183, 1000)).perform();
+        (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(160, 1421)).perform();
+        MobileElement mensagem = (MobileElement) CapabilityFactory.driver.findElementById("com.whatsapp:id/entry");
+        mensagem.sendKeys("TestandoEnvio da Mensagem");
+        MobileElement envio = (MobileElement) CapabilityFactory.driver.findElementByAccessibilityId("Enviar");
+        envio.click();
+
     }
 }
