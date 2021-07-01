@@ -28,7 +28,7 @@ public class CapabilityFactory {
     public void setUpEmuladorTeste() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("Whatsapp", "G:\\Documents\\WhatsApp.apk");
-        desiredCapabilities.setCapability("deviceName", "Teste");
+        desiredCapabilities.setCapability("deviceName", "Teste2");
         desiredCapabilities.setCapability("uidid", "30.7.4-7453540");
         desiredCapabilities.setCapability("authenticationName", "5554");
         desiredCapabilities.setCapability("platformName", "Android");
