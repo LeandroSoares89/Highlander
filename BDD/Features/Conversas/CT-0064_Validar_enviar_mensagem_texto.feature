@@ -7,11 +7,9 @@
 Funcionalidade: Conversas
 
 Contexto:
-Dado que cliquei em uma nova conversa
-E  escolhi o contato 
+Dado  que estou com o aplicativo whatsapp aberto, escolho um contato
 E preencho o campo   Digite uma mensagem com  o texto Hello World
 E cliquei em no icone do aviao
-E a mensagem apareceu no quadro de conversa
 
 CT-0064
 
