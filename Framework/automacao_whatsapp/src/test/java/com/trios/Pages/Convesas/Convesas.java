@@ -16,7 +16,7 @@ public class Convesas {
 
         @Test
         public void criarNovoContato() throws MalformedURLException {
-                capability.setUp();
+                capability.setUpA205g();
                 (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(639, 1385)).perform();
                 (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(184, 325)).perform();
                 MobileElement nameEdit = (MobileElement) CapabilityFactory.driver
@@ -41,7 +41,7 @@ public class Convesas {
 
         @Test
         public void NovaConversa() throws MalformedURLException {
-                capability.setUp();
+                capability.setUpA205g();
                 (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(639, 1385)).perform();
                 MobileElement voltar = (MobileElement) CapabilityFactory.driver
                                 .findElementByAccessibilityId("Navegar para cima");
@@ -50,7 +50,7 @@ public class Convesas {
 
         @Test
         public void EnviarConversa() throws MalformedURLException {
-                capability.setUp();
+                capability.setUpA205g();
                 (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(637, 1388)).perform();
                 (new TouchAction<>(CapabilityFactory.driver)).press(PointOption.point(714, 204))
                                 .moveTo(PointOption.point(714, 296)).release().perform();
@@ -66,7 +66,7 @@ public class Convesas {
 
         @Test
         public void ValidarEnvioAudio() throws MalformedURLException {
-                capability.setUp();
+                capability.setUpA205g();
                 (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(203, 1422)).perform();
                 (new TouchAction<>(CapabilityFactory.driver))
                   .press(PointOption.point(670,1422))
@@ -93,4 +93,6 @@ public class Convesas {
                   
                 (new TouchAction<>(CapabilityFactory.driver)).tap(PointOption.point(652, 1422)).perform();    
         }
+
+        
 }
